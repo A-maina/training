@@ -10,7 +10,7 @@ addBtn.addEventListener("click", () => {
 });
 const toyBtn = document.getElementById("toyBtn");
 toyBtn.addEventListener("click", () => {
-  fetch("http://localhost:3000/toys")
+  fetch("https://training-backend-omega.vercel.app/toys")
     .then((res) => res.json())
     .then((data) => {
       console.log(data);
